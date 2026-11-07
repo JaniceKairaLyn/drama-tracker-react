@@ -1,7 +1,7 @@
 // src/App.jsx
 import { useState } from 'react';
 import { dramaData } from './dramas';
-import DramaCard from "./Dramacard.jsx"
+import DramaCard from "./Dramacard";
 import './App.css';
 
 function App() {
