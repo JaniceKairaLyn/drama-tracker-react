@@ -1,16 +1,14 @@
-# React + Vite
+# My Drama Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A React application built with Vite to track and discover my favorite Chinese and Korean Dramas. I included the links to telegram channels and YouTube channels where the dramas are uploaded. I didn't include some dramas' eng link because I couldn't find channels for those dramas. I know telegram links can be expired but I can't afford to give subscrption fee to watch on legal websites because I am just a mere student who depends on parents for daily life. I tried my best to create this projects. Thank you very much to y'all and special thanks to telegram channels and mydramalist.com website. I give full credit to all telegram channels and websites that have been included in this project.
 
-Currently, two official plugins are available:
+## Features
+- Search dramas by English or Chinese title.
+- Filter by C-Dramas or K-Dramas.
+- Filter by genre (Modern, Historical, Xianxia, etc.).
+- Responsive card layout with posters.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## How to run this project locally
+1. Clone the repository
+2. Run `npm install`
+3. Run `npm run dev`
