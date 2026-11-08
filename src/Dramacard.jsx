@@ -1,5 +1,5 @@
 // src/DramaCard.jsx
-import './DramaCard.css'; // We will create this file next
+import './Dramacard.css'; // We will create this file next
 
 function DramaCard({ drama }) {
   return (
